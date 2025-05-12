@@ -1,0 +1,27 @@
+<!-- templates/products.html -->
+{% extends 'base.html' %}
+{% block content %}
+<section class="products_en">
+    <div class="container">
+        <h2>Product Line</h2>
+        <div class="products_en">
+            <img src="{{ url_for('static', filename='product1.jpg') }}" alt="產品圖片">
+            <div class="product-info">
+                <h3>Business Lines</h3>
+                
+                <p>Cable Assemblies & Wire Harness</p>
+                
+                <p>Medical Cables - reuseable & disposable</p>
+                <p></p>
+                <p>Custom-made Electric-mechanic Components</p>
+                <p></p>
+                <p>Electronic Components & Assemblies</p>
+                <p></p>
+                <p>Custom-made End Products</p>
+                <p></p>
+                <p>Certified to ISO 9001:2015 & ISO 13485:2016</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
