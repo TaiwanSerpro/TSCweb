@@ -41,4 +41,4 @@ def products_en():
 def contact_en():
     return render_template('contact_en.html', lang = 'en')
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
